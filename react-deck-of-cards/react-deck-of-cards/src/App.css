@@ -1,0 +1,33 @@
+.flexRow {
+  display: flex;
+  flex: 1;
+}
+
+.flexColumn {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.playCard {
+  background: white;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-sizing: border-box;
+  font-family: Arial;
+  padding: 4px;
+  position: relative;
+  width: 125px;
+  height: 175px;
+  cursor: inherit;
+  user-select: none;
+  transition: all 250ms ease 0s;
+  float: left;
+  margin-left: -66px;
+  margin-bottom: 11px;
+}
+
+.cardContainer {
+  margin-left: 75px;
+  margin-top: 3px;
+}
